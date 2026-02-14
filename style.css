@@ -28,23 +28,24 @@ h2 {
   padding-bottom: 5px;
 }
 
-.profile-card {
-  display: inline-block;
-  background: white;
-  padding: 15px 15px 30px 15px;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  transform: rotate(-2deg);
-  transition: transform 0.3s ease;
+.hexagon {
+  width: 220px;
+  height: 240px;
+  margin: 20px auto;
+  clip-path: polygon(
+    25% 5%, 75% 5%,
+    100% 50%,
+    75% 95%, 25% 95%,
+    0% 50%
+  );
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-.profile-card:hover {
-  transform: rotate(0deg) scale(1.05);
-}
-
-.profile-card img {
-  width: 200px;
-  border-radius: 5px;
+.hexagon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 ol, ul {
