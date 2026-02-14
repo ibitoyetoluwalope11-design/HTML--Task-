@@ -83,3 +83,12 @@ ul {
 ul li {
   margin: 8px 0;
 }
+/* List alignment fix */
+ol, ul {
+  padding-left: 25px;
+  text-align: left;
+}
+
+ol li, ul li {
+  margin: 8px 0;
+}
