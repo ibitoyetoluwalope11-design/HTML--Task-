@@ -74,3 +74,12 @@ video {
   margin-top: 20px;
   border-radius: 10px;
   }
+
+ul {
+  padding-left: 25px;
+  text-align: left;
+}
+
+ul li {
+  margin: 8px 0;
+}
